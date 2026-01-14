@@ -10,8 +10,8 @@ Proiectul va compara 4 algoritmi RL:
 Framework principal: PyTorch + Stable Baselines3
 
 # Comenzi de rulat in terminal:
-pip install -r requirements.txt
-python -m experiments.run_random_agent
+- pip install -r requirements.txt
+- python -m experiments.run_random_agent
 
 
 # Afisare
