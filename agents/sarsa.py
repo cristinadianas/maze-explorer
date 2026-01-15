@@ -24,14 +24,12 @@ class SARSAAgent:
 
         self.rng = np.random.default_rng(seed)
 
-        # Same Q-table layout as QLearningAgent: Q[x, y, action]
         self.Q = np.zeros((grid_size, grid_size, n_actions), dtype=np.float32)
 
     def _state_to_xy(self, state):
         return int(state[0]), int(state[1])
 
     def act(self, state):
-        # epsilon-greedy (same as QLearningAgent)
         if self.rng.random() < self.epsilon:
             return int(self.rng.integers(self.n_actions))
 
