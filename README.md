@@ -19,9 +19,7 @@ Consola afișează evoluția unui agent care se mișcă aleatoriu într-un labir
 
 
 # Ce mai avem de facut
-- Implementarea celor 4 algoritmi
 - Interfata 2d/3d
-- Reglarea hiperparametrilor și rularea de experimente multiple
 - Tabele comparative între algoritmi
 - Adăugarea de obstacole ?? 
 - Evidențierea rezultatelor : Grafice 2D/3D cu reward cumulativ și loss ??
